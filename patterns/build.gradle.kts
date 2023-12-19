@@ -12,6 +12,3 @@ dependencies {
     implementation(libs.kotlin.reflect)
     implementation(libs.symbol.processing.api)
 }
-
-
-

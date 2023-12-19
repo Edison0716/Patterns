@@ -7,12 +7,9 @@ class Student private constructor(
     age: Int,
     name: String,
     teacher: Teacher
-) {
-
-}
+)
 
 class Teacher()
-
 
 fun main() {
     StudentBuilderCreator
@@ -21,6 +18,7 @@ fun main() {
         .name("edison")
         .teacher(Teacher())
         .build()
+
 }
 
 
